@@ -84,7 +84,7 @@ FRAMING = _with_stems(
 UNITS = _with_stems(
     """
     mg mcg g gram kg lb pound ml unit tablet capsule puff dose
-    day week month year hour minute
+    day night week month year hour minute
     percent session refill reading
     daily nightly weekly monthly time
     """.split()

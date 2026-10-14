@@ -27,7 +27,8 @@ def _read_note_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
-def run_check(args: argparse.Namespace, stream=sys.stdout) -> int:
+def run_check(args: argparse.Namespace, stream=None) -> int:
+    stream = sys.stdout if stream is None else stream
     transcript = load_transcript(args.transcript)
     note_text = _read_note_text(Path(args.note))
     checker = build_checker(args.checker)
@@ -49,7 +50,8 @@ def run_check(args: argparse.Namespace, stream=sys.stdout) -> int:
     return 1 if flagged else 0
 
 
-def run_evaluate(args: argparse.Namespace, stream=sys.stdout) -> int:
+def run_evaluate(args: argparse.Namespace, stream=None) -> int:
+    stream = sys.stdout if stream is None else stream
     notes = load_notes(args.notes)
     transcripts = load_transcripts(args.transcripts)
     labels = load_labels(args.labels)

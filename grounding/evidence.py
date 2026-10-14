@@ -26,19 +26,39 @@ class Quantity:
         return f"{self.value} {self.unit}" if self.unit else self.value
 
 
-def extract_quantities(text: str) -> list[Quantity]:
-    """Pull every number out of a piece of text, binding a following unit when present."""
-    tokens = tokenize(text)
-    out: list[Quantity] = []
-    for index, token in enumerate(tokens):
-        if not is_number(token):
+MAX_UNIT_LOOKAHEAD = 2
+
+
+def _unit_after(tokens: list[str], index: int) -> str | None:
+    """Find the unit that belongs to the number at `index`.
+
+    A short run of filler words is stepped over so that "eight more weeks" binds weeks to
+    eight. The search stops at the next number so that "134 over 86" yields two bare values.
+    """
+    position = index + 1
+    skipped = 0
+    while position < len(tokens) and skipped <= MAX_UNIT_LOOKAHEAD:
+        token = tokens[position]
+        if token in UNITS:
+            return token
+        if is_number(token):
+            return None
+        if token in STOPWORDS:
+            position += 1
+            skipped += 1
             continue
-        unit = None
-        nxt = tokens[index + 1] if index + 1 < len(tokens) else None
-        if nxt in UNITS:
-            unit = nxt
-        out.append(Quantity(token, unit))
-    return out
+        return None
+    return None
+
+
+def extract_quantities(text: str) -> list[Quantity]:
+    """Pull every number out of a piece of text, binding its unit when there is one."""
+    tokens = tokenize(text)
+    return [
+        Quantity(token, _unit_after(tokens, index))
+        for index, token in enumerate(tokens)
+        if is_number(token)
+    ]
 
 
 def quantity_satisfied(needle: Quantity, haystack: list[Quantity]) -> bool:
