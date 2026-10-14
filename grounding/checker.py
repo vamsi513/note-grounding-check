@@ -7,6 +7,7 @@ quantity must match exactly, and the polarity of a shared term must agree.
 
 from __future__ import annotations
 
+from .base import BaseChecker
 from .evidence import (
     extract_quantities,
     is_question,
@@ -14,8 +15,7 @@ from .evidence import (
     polarity,
     quantity_satisfied,
 )
-from .models import NoteVerdict, SentenceVerdict, Transcript
-from .sentences import split_sentences
+from .models import SentenceVerdict, Transcript
 from .text import content_tokens, is_number, medication_tokens, token_weight
 
 DEFAULT_COVERAGE_THRESHOLD = 0.6
@@ -30,11 +30,11 @@ def _coverage(sentence_tokens: list[str], evidence_tokens: set[str]) -> float:
     return hit / total
 
 
-def _turn_tokens(transcript: Transcript) -> dict[int, set[str]]:
+def turn_token_sets(transcript: Transcript) -> dict[int, set[str]]:
     return {turn.number: set(content_tokens(turn.text)) for turn in transcript.turns}
 
 
-def _select_evidence(
+def select_evidence_turns(
     sentence: str,
     sentence_tokens: list[str],
     transcript: Transcript,
@@ -81,7 +81,7 @@ def _select_evidence(
     return sorted(chosen)
 
 
-class DeterministicChecker:
+class DeterministicChecker(BaseChecker):
     """Lexical and numeric checker with no model and no network access."""
 
     name = "deterministic"
@@ -96,8 +96,8 @@ class DeterministicChecker:
 
     def check_sentence(self, index: int, sentence: str, transcript: Transcript) -> SentenceVerdict:
         tokens = content_tokens(sentence)
-        turn_tokens = _turn_tokens(transcript)
-        evidence = _select_evidence(
+        turn_tokens = turn_token_sets(transcript)
+        evidence = select_evidence_turns(
             sentence, tokens, transcript, turn_tokens, self.max_evidence_turns
         )
 
@@ -129,9 +129,7 @@ class DeterministicChecker:
             added = False
             for number in sorted(turn_tokens):
                 turn = transcript.turn(number)
-                shares_term = bool(
-                    {t for t in tokens if not is_number(t)} & turn_tokens[number]
-                )
+                shares_term = bool({t for t in tokens if not is_number(t)} & turn_tokens[number])
                 if shares_term and quantity_satisfied(quantity, extract_quantities(turn.text)):
                     evidence.append(number)
                     evidence.sort()
@@ -155,10 +153,3 @@ class DeterministicChecker:
         if coverage < self.coverage_threshold:
             return verdict(False, f"insufficient lexical support (coverage {coverage:.2f})")
         return verdict(True, f"lexical coverage {coverage:.2f}")
-
-    def check(self, note_text: str, transcript: Transcript, note_id: str = "") -> NoteVerdict:
-        sentences = split_sentences(note_text)
-        verdicts = [
-            self.check_sentence(i, sentence, transcript) for i, sentence in enumerate(sentences)
-        ]
-        return NoteVerdict(note_id, transcript.id, self.name, verdicts)

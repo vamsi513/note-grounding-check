@@ -11,6 +11,9 @@ target-version = "py311"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+# The vocabulary blocks in grounding/text.py are far easier to read and to review as
+# whitespace separated text than as long list literals.
+ignore = ["SIM905"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
