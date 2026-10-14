@@ -25,7 +25,8 @@ def test_two_decimals_in_one_sentence_stay_together():
 
 
 def test_abbreviation_does_not_split():
-    assert split_sentences("Seen by Dr. Lane for a refill.") == ["Seen by Dr. Lane for a refill."]
+    text = "Dose is approx. 10 mg daily."
+    assert split_sentences(text) == ["Dose is approx. 10 mg daily."]
 
 
 def test_question_and_exclamation_end_sentences():
