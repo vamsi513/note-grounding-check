@@ -1,0 +1,41 @@
+{
+  "id": "t18",
+  "visit_type": "follow up",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "doctor",
+      "text": "How many times did you use the rescue inhaler last month?"
+    },
+    {
+      "turn": 2,
+      "speaker": "patient",
+      "text": "Maybe three times."
+    },
+    {
+      "turn": 3,
+      "speaker": "doctor",
+      "text": "Any night time symptoms?"
+    },
+    {
+      "turn": 4,
+      "speaker": "patient",
+      "text": "No night time symptoms."
+    },
+    {
+      "turn": 5,
+      "speaker": "doctor",
+      "text": "Are you using the controller inhaler every day?"
+    },
+    {
+      "turn": 6,
+      "speaker": "patient",
+      "text": "Yes, every morning and evening."
+    },
+    {
+      "turn": 7,
+      "speaker": "doctor",
+      "text": "That is good control. Keep both inhalers and come back in four months."
+    }
+  ]
+}

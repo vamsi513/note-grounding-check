@@ -1,0 +1,36 @@
+{
+  "id": "t12",
+  "visit_type": "lab result question",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "I had a message about my vitamin D level."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "It came back at 22, which is low."
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "What is normal?"
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "We like it above 30."
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "Should I take something?"
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "Start 2000 units daily and we will recheck in three months."
+    }
+  ]
+}

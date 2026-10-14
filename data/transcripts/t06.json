@@ -1,0 +1,41 @@
+{
+  "id": "t06",
+  "visit_type": "follow up",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "doctor",
+      "text": "How is the knee since physical therapy started?"
+    },
+    {
+      "turn": 2,
+      "speaker": "patient",
+      "text": "Better. I can walk the dog again."
+    },
+    {
+      "turn": 3,
+      "speaker": "doctor",
+      "text": "How many sessions have you done?"
+    },
+    {
+      "turn": 4,
+      "speaker": "patient",
+      "text": "Six sessions so far."
+    },
+    {
+      "turn": 5,
+      "speaker": "doctor",
+      "text": "Any swelling or locking?"
+    },
+    {
+      "turn": 6,
+      "speaker": "patient",
+      "text": "No swelling. No locking."
+    },
+    {
+      "turn": 7,
+      "speaker": "doctor",
+      "text": "Let us continue therapy for four more weeks."
+    }
+  ]
+}

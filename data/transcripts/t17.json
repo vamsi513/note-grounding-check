@@ -1,0 +1,36 @@
+{
+  "id": "t17",
+  "visit_type": "refill",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "I need a refill of atorvastatin."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "You are on atorvastatin 20 mg at bedtime."
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "Yes, every night."
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "Any muscle aches?"
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "No muscle aches."
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "I will refill it for one year."
+    }
+  ]
+}

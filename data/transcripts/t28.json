@@ -1,0 +1,36 @@
+{
+  "id": "t28",
+  "visit_type": "lab result question",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "Did my A1c come back?"
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "It is 6.8, down from 7.4."
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "That is better, right?"
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "Yes. Keep the same plan."
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "Do I still need the morning walk?"
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "Yes, keep walking. We will repeat the A1c in six months."
+    }
+  ]
+}

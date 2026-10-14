@@ -1,0 +1,36 @@
+{
+  "id": "t09",
+  "visit_type": "refill",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "I need a refill on sertraline."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "You are on sertraline 50 mg daily. How is your mood?"
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "Steadier than last year."
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "Any trouble sleeping?"
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "No trouble sleeping."
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "I will refill sertraline 50 mg for three months."
+    }
+  ]
+}

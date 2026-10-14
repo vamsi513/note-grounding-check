@@ -1,0 +1,46 @@
+{
+  "id": "t20",
+  "visit_type": "lab result question",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "I was told my iron was low."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "Your ferritin is 12, which is low."
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "Is that why I am tired?"
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "It can be. Any heavy periods or black stools?"
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "No black stools."
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "Start ferrous sulfate 325 mg once daily with orange juice."
+    },
+    {
+      "turn": 7,
+      "speaker": "patient",
+      "text": "How long?"
+    },
+    {
+      "turn": 8,
+      "speaker": "doctor",
+      "text": "Three months, then we recheck the ferritin."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "t14",
+  "visit_type": "follow up",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "doctor",
+      "text": "Let us look at your feet today."
+    },
+    {
+      "turn": 2,
+      "speaker": "patient",
+      "text": "They feel fine, no numbness."
+    },
+    {
+      "turn": 3,
+      "speaker": "doctor",
+      "text": "Pulses are good and I see no ulcers."
+    },
+    {
+      "turn": 4,
+      "speaker": "patient",
+      "text": "I check them every night like you said."
+    },
+    {
+      "turn": 5,
+      "speaker": "doctor",
+      "text": "Keep doing that. How is the metformin going?"
+    },
+    {
+      "turn": 6,
+      "speaker": "patient",
+      "text": "No stomach upset since we lowered it to 500 mg twice daily."
+    },
+    {
+      "turn": 7,
+      "speaker": "doctor",
+      "text": "Good. We will see you in six months."
+    }
+  ]
+}

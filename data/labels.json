@@ -1,0 +1,1689 @@
+{
+  "n01": {
+    "transcript_id": "t01",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient requests a refill of lisinopril.",
+        "supported": true,
+        "evidence_turns": [
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Current dose is lisinopril 10 mg once daily.",
+        "supported": true,
+        "evidence_turns": [
+          3,
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient denies dizziness.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Patient denies cough.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "A 90 day supply was sent to the pharmacy.",
+        "supported": true,
+        "evidence_turns": [
+          7
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n02": {
+    "transcript_id": "t02",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Morning blood sugar is mostly in the 120s.",
+        "supported": true,
+        "evidence_turns": [
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Patient takes metformin 500 mg twice daily.",
+        "supported": true,
+        "evidence_turns": [
+          3,
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "A1c is 7.1 percent.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "A1c is down from 7.6 percent.",
+        "supported": true,
+        "evidence_turns": [
+          7
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Patient was advised to keep the same dose and recheck in three months.",
+        "supported": true,
+        "evidence_turns": [
+          7
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n03": {
+    "transcript_id": "t03",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient reports a cough for five days.",
+        "supported": true,
+        "evidence_turns": [
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Patient denies fever.",
+        "supported": true,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient denies chest pain.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Patient reports shortness of breath when climbing stairs.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Patient also reports vomiting for two days.",
+        "supported": false,
+        "evidence_turns": [],
+        "error_type": "invented symptom"
+      },
+      {
+        "index": 5,
+        "text": "Lungs sound clear.",
+        "supported": true,
+        "evidence_turns": [
+          7
+        ],
+        "error_type": null
+      },
+      {
+        "index": 6,
+        "text": "Patient was advised to call if it lasts more than two weeks.",
+        "supported": true,
+        "evidence_turns": [
+          9
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n04": {
+    "transcript_id": "t04",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient asked about cholesterol results.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Total cholesterol is 215 and LDL is 140.",
+        "supported": true,
+        "evidence_turns": [
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "LDL is above the target of 100.",
+        "supported": true,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Diet changes for three months were advised, then a recheck.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Patient agreed that the plan sounds fine.",
+        "supported": true,
+        "evidence_turns": [
+          7
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n05": {
+    "transcript_id": "t05",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient is almost out of the albuterol inhaler.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Patient uses it about twice a week, usually before mowing the lawn.",
+        "supported": true,
+        "evidence_turns": [
+          3
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient denies night waking.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "The albuterol inhaler was refilled with two refills.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n06": {
+    "transcript_id": "t06",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "The knee is better since physical therapy started.",
+        "supported": true,
+        "evidence_turns": [
+          1,
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Patient has done six sessions so far.",
+        "supported": true,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient denies swelling.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Patient denies locking.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Therapy will continue for eight more weeks.",
+        "supported": false,
+        "evidence_turns": [
+          7
+        ],
+        "error_type": "wrong duration"
+      }
+    ]
+  },
+  "n07": {
+    "transcript_id": "t07",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient reports a headache for three days.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "The pain is behind both eyes and light makes it worse.",
+        "supported": true,
+        "evidence_turns": [
+          3
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient denies weakness.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Patient denies numbness.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Acetaminophen helps a little.",
+        "supported": true,
+        "evidence_turns": [
+          7
+        ],
+        "error_type": null
+      },
+      {
+        "index": 5,
+        "text": "Patient was advised to keep a headache diary for two weeks.",
+        "supported": true,
+        "evidence_turns": [
+          8
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n08": {
+    "transcript_id": "t08",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient asked about the thyroid test.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "TSH is 5.8 and is slightly high.",
+        "supported": true,
+        "evidence_turns": [
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient takes levothyroxine 100 mcg every morning.",
+        "supported": false,
+        "evidence_turns": [
+          3
+        ],
+        "error_type": "invented dose"
+      },
+      {
+        "index": 3,
+        "text": "Patient reports some fatigue.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Patient denies cold intolerance.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 5,
+        "text": "The dose will increase to 75 mcg with a TSH recheck in six weeks.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n09": {
+    "transcript_id": "t09",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient requests a refill on sertraline.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Current dose is sertraline 50 mg daily.",
+        "supported": true,
+        "evidence_turns": [
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Mood is steadier than last year.",
+        "supported": true,
+        "evidence_turns": [
+          3
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Patient denies trouble sleeping.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Sertraline 50 mg was refilled for three months.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n10": {
+    "transcript_id": "t10",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient brought a blood pressure log.",
+        "supported": true,
+        "evidence_turns": [
+          1,
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Most readings are around 134 over 86.",
+        "supported": true,
+        "evidence_turns": [
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient checks every morning before coffee.",
+        "supported": true,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Patient denies headaches.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Patient denies blurry vision.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 5,
+        "text": "Patient was advised to keep the medication and bring the log again in two months.",
+        "supported": true,
+        "evidence_turns": [
+          7
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n11": {
+    "transcript_id": "t11",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "The right ankle has been swollen for about four days.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Patient denies any injury.",
+        "supported": true,
+        "evidence_turns": [
+          3
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "It aches a little, mostly in the evening.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Patient denies shortness of breath.",
+        "supported": true,
+        "evidence_turns": [
+          7
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Patient also reports a mild fever.",
+        "supported": false,
+        "evidence_turns": [],
+        "error_type": "invented symptom"
+      },
+      {
+        "index": 5,
+        "text": "Patient was advised to keep the leg elevated.",
+        "supported": true,
+        "evidence_turns": [
+          8
+        ],
+        "error_type": null
+      },
+      {
+        "index": 6,
+        "text": "A recheck is planned in one week.",
+        "supported": true,
+        "evidence_turns": [
+          8
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n12": {
+    "transcript_id": "t12",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient asked about the vitamin D level.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "The vitamin D level is 22 and is low.",
+        "supported": true,
+        "evidence_turns": [
+          1,
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "The target is above 30.",
+        "supported": true,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Vitamin D 2000 units daily was started.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "A recheck is planned in three months.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n13": {
+    "transcript_id": "t13",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient requests more omeprazole.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Patient takes omeprazole 20 mg once daily before breakfast.",
+        "supported": true,
+        "evidence_turns": [
+          2,
+          3
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient denies trouble swallowing.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Patient denies black stools.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Omeprazole 20 mg was refilled for six months.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n14": {
+    "transcript_id": "t14",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Both feet were examined.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Patient denies numbness.",
+        "supported": true,
+        "evidence_turns": [
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Pulses are good.",
+        "supported": true,
+        "evidence_turns": [
+          3
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "There were no ulcers.",
+        "supported": true,
+        "evidence_turns": [
+          3
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Patient checks the feet every night.",
+        "supported": true,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 5,
+        "text": "Patient denies stomach upset on atorvastatin 500 mg twice daily.",
+        "supported": false,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": "wrong medication"
+      },
+      {
+        "index": 6,
+        "text": "Follow up is planned in six months.",
+        "supported": true,
+        "evidence_turns": [
+          7
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n15": {
+    "transcript_id": "t15",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "A rash is present on the left forearm.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "The rash has been present for about six days.",
+        "supported": true,
+        "evidence_turns": [
+          1,
+          3
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "The rash is very itchy, especially at night.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Patient started a new detergent two weeks ago.",
+        "supported": true,
+        "evidence_turns": [
+          7
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Patient was advised to stop the detergent.",
+        "supported": true,
+        "evidence_turns": [
+          8
+        ],
+        "error_type": null
+      },
+      {
+        "index": 5,
+        "text": "Cream twice daily for ten days was recommended.",
+        "supported": true,
+        "evidence_turns": [
+          8
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n16": {
+    "transcript_id": "t16",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient asked about the kidney numbers.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Creatinine is 1.3, up from 1.1 last year.",
+        "supported": true,
+        "evidence_turns": [
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "The change is small.",
+        "supported": true,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Patient was advised to drink more water.",
+        "supported": true,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Patient was advised to avoid ibuprofen.",
+        "supported": true,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 5,
+        "text": "Acetaminophen was recommended instead.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 6,
+        "text": "A recheck is planned in two months.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n17": {
+    "transcript_id": "t17",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient requests a refill of atorvastatin.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Patient takes atorvastatin 40 mg at bedtime.",
+        "supported": false,
+        "evidence_turns": [
+          2
+        ],
+        "error_type": "invented dose"
+      },
+      {
+        "index": 2,
+        "text": "Patient denies muscle aches.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "The refill was sent for one year.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n18": {
+    "transcript_id": "t18",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient used the rescue inhaler about three times last month.",
+        "supported": true,
+        "evidence_turns": [
+          1,
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Patient denies night time symptoms.",
+        "supported": true,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient uses the controller inhaler every morning and evening.",
+        "supported": true,
+        "evidence_turns": [
+          5,
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Control is good.",
+        "supported": true,
+        "evidence_turns": [
+          7
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Follow up is planned in four months.",
+        "supported": true,
+        "evidence_turns": [
+          7
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n19": {
+    "transcript_id": "t19",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient reports feeling dizzy when standing up quickly.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "This has been present for about two weeks.",
+        "supported": true,
+        "evidence_turns": [
+          3
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient denies fainting.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Water intake is probably not enough.",
+        "supported": true,
+        "evidence_turns": [
+          6,
+          7
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Patient was advised to stand up slowly.",
+        "supported": true,
+        "evidence_turns": [
+          8
+        ],
+        "error_type": null
+      },
+      {
+        "index": 5,
+        "text": "Patient was advised to drink more water.",
+        "supported": true,
+        "evidence_turns": [
+          8
+        ],
+        "error_type": null
+      },
+      {
+        "index": 6,
+        "text": "Follow up in three weeks was advised if it continues.",
+        "supported": true,
+        "evidence_turns": [
+          8
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n20": {
+    "transcript_id": "t20",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient was told the iron was low.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Ferritin is 12 and is low.",
+        "supported": true,
+        "evidence_turns": [
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient denies black stools.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Ferrous sulfate 325 mg once daily with orange juice was started.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Treatment will run for three months.",
+        "supported": true,
+        "evidence_turns": [
+          8
+        ],
+        "error_type": null
+      },
+      {
+        "index": 5,
+        "text": "The ferritin will be rechecked.",
+        "supported": true,
+        "evidence_turns": [
+          8
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n21": {
+    "transcript_id": "t21",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient requests a warfarin refill.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Patient takes warfarin 2.5 mg daily.",
+        "supported": true,
+        "evidence_turns": [
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "The last INR was 2.4 two weeks ago.",
+        "supported": true,
+        "evidence_turns": [
+          2,
+          3
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Patient denies unusual bruising.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Patient denies bleeding.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 5,
+        "text": "Warfarin was refilled for six months.",
+        "supported": false,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": "wrong duration"
+      },
+      {
+        "index": 6,
+        "text": "The INR will be rechecked in four weeks.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n22": {
+    "transcript_id": "t22",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Weight is down four pounds since March.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Patient cut out soda.",
+        "supported": true,
+        "evidence_turns": [
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient walks about 20 minutes most days.",
+        "supported": true,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "The goal is 30 minutes.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Weight will be rechecked in three months.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n23": {
+    "transcript_id": "t23",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "The throat has been sore for three days.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Patient denies fever.",
+        "supported": true,
+        "evidence_turns": [
+          3
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient reports a little cough.",
+        "supported": true,
+        "evidence_turns": [
+          3
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "The throat is red.",
+        "supported": true,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "There is no white patch.",
+        "supported": true,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 5,
+        "text": "Salt water gargles and fluids were advised.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 6,
+        "text": "Patient was advised to call if a fever starts or it lasts past one week.",
+        "supported": true,
+        "evidence_turns": [
+          8
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n24": {
+    "transcript_id": "t24",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient asked about abnormal liver tests.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "ALT is 68 and AST is 54.",
+        "supported": true,
+        "evidence_turns": [
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "The values are mildly above the normal range.",
+        "supported": true,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Patient reports drinking a large amount of alcohol daily.",
+        "supported": false,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": "invented symptom"
+      },
+      {
+        "index": 4,
+        "text": "Patient was advised to stop the supplement.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 5,
+        "text": "The tests will be repeated in six weeks.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n25": {
+    "transcript_id": "t25",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient requests a gabapentin refill.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Patient takes gabapentin 300 mg three times daily.",
+        "supported": true,
+        "evidence_turns": [
+          2,
+          3
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient reports a little afternoon sleepiness.",
+        "supported": true,
+        "evidence_turns": [
+          4,
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Gabapentin was refilled for three months.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n26": {
+    "transcript_id": "t26",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient uses the CPAP about five nights a week.",
+        "supported": true,
+        "evidence_turns": [
+          1,
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Patient reports some dry mouth.",
+        "supported": true,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient denies mask leak.",
+        "supported": true,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "A humidifier setting may help.",
+        "supported": true,
+        "evidence_turns": [
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Daytime sleepiness is much better than before.",
+        "supported": true,
+        "evidence_turns": [
+          5,
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 5,
+        "text": "Follow up is planned in six months.",
+        "supported": true,
+        "evidence_turns": [
+          7
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n27": {
+    "transcript_id": "t27",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Lower back pain has been present for about ten days.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Patient denies pain going down the leg.",
+        "supported": true,
+        "evidence_turns": [
+          3
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient denies bladder trouble.",
+        "supported": true,
+        "evidence_turns": [
+          4,
+          5
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Patient was advised to take ibuprofen with food.",
+        "supported": false,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": "wrong medication"
+      },
+      {
+        "index": 4,
+        "text": "Patient was advised to keep moving.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 5,
+        "text": "Bed rest makes it worse.",
+        "supported": true,
+        "evidence_turns": [
+          8
+        ],
+        "error_type": null
+      },
+      {
+        "index": 6,
+        "text": "Follow up in two weeks was advised if there is no improvement.",
+        "supported": true,
+        "evidence_turns": [
+          8
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n28": {
+    "transcript_id": "t28",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "A1c is 6.8, down from 7.4.",
+        "supported": true,
+        "evidence_turns": [
+          1,
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Patient was advised to keep the same plan.",
+        "supported": true,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient was advised to keep walking.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "The A1c will be repeated in six months.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n29": {
+    "transcript_id": "t29",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient needs an antibiotic before a dental extraction.",
+        "supported": true,
+        "evidence_turns": [
+          1
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Patient denies penicillin allergy.",
+        "supported": true,
+        "evidence_turns": [
+          2,
+          3
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Amoxicillin 500 mg three times daily for 14 days was sent.",
+        "supported": false,
+        "evidence_turns": [
+          4
+        ],
+        "error_type": "wrong duration"
+      },
+      {
+        "index": 3,
+        "text": "Patient was advised to start it the day before the extraction.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      }
+    ]
+  },
+  "n30": {
+    "transcript_id": "t30",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Patient had four migraines last month, down from eight.",
+        "supported": true,
+        "evidence_turns": [
+          1,
+          2
+        ],
+        "error_type": null
+      },
+      {
+        "index": 1,
+        "text": "Sumatriptan works if taken early.",
+        "supported": true,
+        "evidence_turns": [
+          3,
+          4
+        ],
+        "error_type": null
+      },
+      {
+        "index": 2,
+        "text": "Patient denies aura.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 3,
+        "text": "Patient reports some vomiting with the bad migraines.",
+        "supported": true,
+        "evidence_turns": [
+          6
+        ],
+        "error_type": null
+      },
+      {
+        "index": 4,
+        "text": "Patient was advised to keep a diary.",
+        "supported": true,
+        "evidence_turns": [
+          7
+        ],
+        "error_type": null
+      },
+      {
+        "index": 5,
+        "text": "Follow up is planned in three months.",
+        "supported": true,
+        "evidence_turns": [
+          7
+        ],
+        "error_type": null
+      }
+    ]
+  }
+}

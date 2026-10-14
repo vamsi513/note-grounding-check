@@ -1,0 +1,46 @@
+{
+  "id": "t07",
+  "visit_type": "new symptom",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "I have had a headache for three days."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "Where is the pain?"
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "Behind both eyes, and light makes it worse."
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "Any weakness or numbness?"
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "No weakness and no numbness."
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "Have you taken anything for it?"
+    },
+    {
+      "turn": 7,
+      "speaker": "patient",
+      "text": "Acetaminophen, which helps a little."
+    },
+    {
+      "turn": 8,
+      "speaker": "doctor",
+      "text": "Keep a headache diary for two weeks and we will review it."
+    }
+  ]
+}

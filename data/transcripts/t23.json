@@ -1,0 +1,46 @@
+{
+  "id": "t23",
+  "visit_type": "new symptom",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "My throat has been sore for three days."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "Any fever or cough?"
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "No fever. A little cough."
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "Let me look. Your throat is red but there is no white patch."
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "Do I need an antibiotic?"
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "Not yet. Salt water gargles and fluids for now."
+    },
+    {
+      "turn": 7,
+      "speaker": "patient",
+      "text": "When should I call?"
+    },
+    {
+      "turn": 8,
+      "speaker": "doctor",
+      "text": "Call if you get a fever or it lasts past one week."
+    }
+  ]
+}

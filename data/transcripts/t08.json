@@ -1,0 +1,36 @@
+{
+  "id": "t08",
+  "visit_type": "lab result question",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "My thyroid test was in the portal and I did not understand it."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "Your TSH is 5.8, which is slightly high."
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "I take levothyroxine 50 mcg every morning."
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "Any new fatigue or cold intolerance?"
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "Some fatigue, but no cold intolerance."
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "Let us increase to 75 mcg and recheck the TSH in six weeks."
+    }
+  ]
+}

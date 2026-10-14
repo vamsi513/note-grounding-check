@@ -1,0 +1,46 @@
+{
+  "id": "t11",
+  "visit_type": "new symptom",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "My right ankle has been swollen for about four days."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "Any injury to it?"
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "No injury that I remember."
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "Is it painful when you walk?"
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "It aches a little, mostly in the evening."
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "Any shortness of breath?"
+    },
+    {
+      "turn": 7,
+      "speaker": "patient",
+      "text": "No shortness of breath."
+    },
+    {
+      "turn": 8,
+      "speaker": "doctor",
+      "text": "Keep the leg elevated and we will recheck in one week."
+    }
+  ]
+}

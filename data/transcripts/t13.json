@@ -1,0 +1,36 @@
+{
+  "id": "t13",
+  "visit_type": "refill",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "I need more omeprazole."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "You take omeprazole 20 mg once daily, before breakfast?"
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "Yes, before breakfast."
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "Any trouble swallowing or black stools?"
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "No trouble swallowing. No black stools."
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "I will refill omeprazole 20 mg for six months."
+    }
+  ]
+}

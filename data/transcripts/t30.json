@@ -1,0 +1,41 @@
+{
+  "id": "t30",
+  "visit_type": "follow up",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "doctor",
+      "text": "How many migraines did you have last month?"
+    },
+    {
+      "turn": 2,
+      "speaker": "patient",
+      "text": "Four, which is down from eight."
+    },
+    {
+      "turn": 3,
+      "speaker": "doctor",
+      "text": "Is the sumatriptan working?"
+    },
+    {
+      "turn": 4,
+      "speaker": "patient",
+      "text": "It works if I take it early."
+    },
+    {
+      "turn": 5,
+      "speaker": "doctor",
+      "text": "Any aura or vomiting?"
+    },
+    {
+      "turn": 6,
+      "speaker": "patient",
+      "text": "No aura. Some vomiting with the bad ones."
+    },
+    {
+      "turn": 7,
+      "speaker": "doctor",
+      "text": "Keep a diary and come back in three months."
+    }
+  ]
+}

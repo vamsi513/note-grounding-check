@@ -1,0 +1,46 @@
+{
+  "id": "t27",
+  "visit_type": "new symptom",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "My lower back has been hurting for about ten days."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "Any pain going down your leg?"
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "No pain down the leg."
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "Any trouble with your bladder?"
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "No trouble there."
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "Try naproxen with food and keep moving."
+    },
+    {
+      "turn": 7,
+      "speaker": "patient",
+      "text": "Should I rest in bed?"
+    },
+    {
+      "turn": 8,
+      "speaker": "doctor",
+      "text": "Bed rest makes it worse. Come back in two weeks if it is not better."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "t22",
+  "visit_type": "follow up",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "doctor",
+      "text": "Your weight is down four pounds since March."
+    },
+    {
+      "turn": 2,
+      "speaker": "patient",
+      "text": "I cut out soda."
+    },
+    {
+      "turn": 3,
+      "speaker": "doctor",
+      "text": "That is a good change. Are you walking?"
+    },
+    {
+      "turn": 4,
+      "speaker": "patient",
+      "text": "About 20 minutes most days."
+    },
+    {
+      "turn": 5,
+      "speaker": "doctor",
+      "text": "Let us aim for 30 minutes and recheck the weight in three months."
+    }
+  ]
+}

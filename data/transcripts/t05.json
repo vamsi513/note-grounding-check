@@ -1,0 +1,36 @@
+{
+  "id": "t05",
+  "visit_type": "refill",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "I am almost out of my albuterol inhaler."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "How often are you using it?"
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "About twice a week, usually before I mow the lawn."
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "Any night time waking from wheezing?"
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "No night waking."
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "I will refill the albuterol inhaler with two refills."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "t26",
+  "visit_type": "follow up",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "doctor",
+      "text": "How many nights a week are you using the CPAP?"
+    },
+    {
+      "turn": 2,
+      "speaker": "patient",
+      "text": "About five nights."
+    },
+    {
+      "turn": 3,
+      "speaker": "doctor",
+      "text": "Any mask leak or dry mouth?"
+    },
+    {
+      "turn": 4,
+      "speaker": "patient",
+      "text": "Some dry mouth. No mask leak."
+    },
+    {
+      "turn": 5,
+      "speaker": "doctor",
+      "text": "A humidifier setting can help. Any daytime sleepiness?"
+    },
+    {
+      "turn": 6,
+      "speaker": "patient",
+      "text": "Much better than before."
+    },
+    {
+      "turn": 7,
+      "speaker": "doctor",
+      "text": "Keep using it and come back in six months."
+    }
+  ]
+}

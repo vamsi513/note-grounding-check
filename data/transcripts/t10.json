@@ -1,0 +1,41 @@
+{
+  "id": "t10",
+  "visit_type": "follow up",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "doctor",
+      "text": "Did you bring your blood pressure log?"
+    },
+    {
+      "turn": 2,
+      "speaker": "patient",
+      "text": "Yes. Most readings are around 134 over 86."
+    },
+    {
+      "turn": 3,
+      "speaker": "doctor",
+      "text": "Are you checking in the morning?"
+    },
+    {
+      "turn": 4,
+      "speaker": "patient",
+      "text": "Every morning before coffee."
+    },
+    {
+      "turn": 5,
+      "speaker": "doctor",
+      "text": "Any headaches or blurry vision?"
+    },
+    {
+      "turn": 6,
+      "speaker": "patient",
+      "text": "No headaches. No blurry vision."
+    },
+    {
+      "turn": 7,
+      "speaker": "doctor",
+      "text": "Keep the current medication and bring the log again in two months."
+    }
+  ]
+}

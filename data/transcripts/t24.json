@@ -1,0 +1,36 @@
+{
+  "id": "t24",
+  "visit_type": "lab result question",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "I got a note that my liver tests were abnormal."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "Your ALT is 68 and your AST is 54."
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "Is that bad?"
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "They are mildly above the normal range."
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "I do not drink much alcohol."
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "Let us stop the supplement you started and repeat the tests in six weeks."
+    }
+  ]
+}

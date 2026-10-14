@@ -1,0 +1,46 @@
+{
+  "id": "t15",
+  "visit_type": "new symptom",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "I have a rash on my left forearm."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "How long has it been there?"
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "About six days."
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "Is it itchy?"
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "Very itchy, especially at night."
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "Any new soap or detergent?"
+    },
+    {
+      "turn": 7,
+      "speaker": "patient",
+      "text": "I started a new detergent two weeks ago."
+    },
+    {
+      "turn": 8,
+      "speaker": "doctor",
+      "text": "Stop the detergent and use the cream twice daily for ten days."
+    }
+  ]
+}

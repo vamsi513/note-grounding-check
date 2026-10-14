@@ -1,0 +1,46 @@
+{
+  "id": "t19",
+  "visit_type": "new symptom",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "I get dizzy when I stand up quickly."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "How long has that been happening?"
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "About two weeks."
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "Any fainting?"
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "No fainting."
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "Are you drinking enough water?"
+    },
+    {
+      "turn": 7,
+      "speaker": "patient",
+      "text": "Probably not enough."
+    },
+    {
+      "turn": 8,
+      "speaker": "doctor",
+      "text": "Stand up slowly, drink more water, and come back in three weeks if it continues."
+    }
+  ]
+}

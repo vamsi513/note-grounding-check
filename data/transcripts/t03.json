@@ -1,0 +1,51 @@
+{
+  "id": "t03",
+  "visit_type": "new symptom",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "doctor",
+      "text": "What is going on today?"
+    },
+    {
+      "turn": 2,
+      "speaker": "patient",
+      "text": "I have had a cough for five days."
+    },
+    {
+      "turn": 3,
+      "speaker": "doctor",
+      "text": "Any fever?"
+    },
+    {
+      "turn": 4,
+      "speaker": "patient",
+      "text": "No fever."
+    },
+    {
+      "turn": 5,
+      "speaker": "doctor",
+      "text": "Any chest pain or shortness of breath?"
+    },
+    {
+      "turn": 6,
+      "speaker": "patient",
+      "text": "No chest pain. I do get a little short of breath when I climb stairs."
+    },
+    {
+      "turn": 7,
+      "speaker": "doctor",
+      "text": "Your lungs sound clear. This looks viral, so rest and fluids for now."
+    },
+    {
+      "turn": 8,
+      "speaker": "patient",
+      "text": "How long should I wait before calling?"
+    },
+    {
+      "turn": 9,
+      "speaker": "doctor",
+      "text": "Call if it lasts more than two weeks or you spike a fever."
+    }
+  ]
+}

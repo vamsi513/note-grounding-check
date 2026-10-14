@@ -1,0 +1,36 @@
+{
+  "id": "t29",
+  "visit_type": "refill",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "The dentist said I need an antibiotic before my extraction."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "Any penicillin allergy?"
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "No allergy."
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "I will send amoxicillin 500 mg three times daily for seven days."
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "Starting when?"
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "Start it the day before the extraction."
+    }
+  ]
+}

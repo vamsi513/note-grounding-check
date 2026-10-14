@@ -1,0 +1,36 @@
+{
+  "id": "t21",
+  "visit_type": "refill",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "I need a warfarin refill."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "You are on warfarin 2.5 mg daily. What was your last INR?"
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "It was 2.4 two weeks ago."
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "Any unusual bruising or bleeding?"
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "No unusual bruising. No bleeding."
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "I will refill warfarin for two months and recheck the INR in four weeks."
+    }
+  ]
+}

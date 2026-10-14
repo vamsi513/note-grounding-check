@@ -1,0 +1,41 @@
+{
+  "id": "t04",
+  "visit_type": "lab result question",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "I got a message about my cholesterol results."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "Your total cholesterol is 215 and your LDL is 140."
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "Is that high?"
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "The LDL is above the target of 100 for you."
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "Do I need a pill?"
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "Let us try diet changes for three months first, then recheck."
+    },
+    {
+      "turn": 7,
+      "speaker": "patient",
+      "text": "That sounds fine."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "t02",
+  "visit_type": "follow up",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "doctor",
+      "text": "How has your blood sugar been since your last visit?"
+    },
+    {
+      "turn": 2,
+      "speaker": "patient",
+      "text": "Mostly in the 120s in the morning."
+    },
+    {
+      "turn": 3,
+      "speaker": "doctor",
+      "text": "Are you still taking metformin 500 mg twice daily?"
+    },
+    {
+      "turn": 4,
+      "speaker": "patient",
+      "text": "Yes, with breakfast and dinner."
+    },
+    {
+      "turn": 5,
+      "speaker": "doctor",
+      "text": "Your A1c came back at 7.1 percent."
+    },
+    {
+      "turn": 6,
+      "speaker": "patient",
+      "text": "Is that better than last time?"
+    },
+    {
+      "turn": 7,
+      "speaker": "doctor",
+      "text": "It is down from 7.6 percent. Keep the same dose and we will recheck in three months."
+    }
+  ]
+}

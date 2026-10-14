@@ -1,0 +1,36 @@
+{
+  "id": "t25",
+  "visit_type": "refill",
+  "turns": [
+    {
+      "turn": 1,
+      "speaker": "patient",
+      "text": "I need a gabapentin refill."
+    },
+    {
+      "turn": 2,
+      "speaker": "doctor",
+      "text": "You take gabapentin 300 mg three times daily?"
+    },
+    {
+      "turn": 3,
+      "speaker": "patient",
+      "text": "Yes, morning, afternoon and bedtime."
+    },
+    {
+      "turn": 4,
+      "speaker": "doctor",
+      "text": "Any daytime sleepiness?"
+    },
+    {
+      "turn": 5,
+      "speaker": "patient",
+      "text": "A little in the afternoon."
+    },
+    {
+      "turn": 6,
+      "speaker": "doctor",
+      "text": "I will refill gabapentin for three months."
+    }
+  ]
+}
