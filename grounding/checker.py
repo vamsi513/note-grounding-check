@@ -43,9 +43,10 @@ def select_evidence_turns(
 ) -> list[int]:
     """Greedily pick the turns that add the most weighted coverage, best first.
 
-    Turns are ranked by the weight they newly cover, and ties are broken in favour of the turn
-    whose polarity agrees with the sentence. Without that tie break a question such as
-    "any dizziness?" would be picked ahead of the answer "no dizziness".
+    Turns are ranked by the weight they newly cover. Ties are broken first in favour of the
+    turn whose polarity agrees with the sentence and then in favour of a turn that asserts
+    something rather than asking. Without those tie breaks a question such as "any dizziness?"
+    would be picked ahead of the answer "no dizziness".
     """
     wanted = set(sentence_tokens)
     s_neg, s_aff = polarity(sentence)
@@ -65,13 +66,14 @@ def select_evidence_turns(
 
     while remaining and len(chosen) < max_turns:
         best_turn = None
-        best_key = (0, 0)
+        best_key = (0, 0, 0)
         for number in sorted(remaining):
             new_tokens = {t for t in sentence_tokens if t in remaining[number] and t not in covered}
             gain = sum(token_weight(t) for t in new_tokens)
             if gain == 0:
                 continue
-            key = (gain, agreement(number, new_tokens))
+            asserts = 0 if is_question(transcript.turn(number).text) else 1
+            key = (gain, agreement(number, new_tokens), asserts)
             if best_turn is None or key > best_key:
                 best_turn, best_key = number, key
         if best_turn is None:

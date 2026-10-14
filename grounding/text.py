@@ -74,7 +74,8 @@ FRAMING = _with_stems(
     """
     patient pt doctor clinician provider report reports reported reporting state states stated
     deny denies denied note noted noting advise advised advises asked ask asking current
-    currently examination exam finding findings plan plans today visit also additionally
+    currently examination exam examine examined examining performed perform
+    finding findings plan plans today visit also additionally
     overall discussed discussion
     """.split()
 )
